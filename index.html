@@ -43,21 +43,22 @@
         </div>
         
         <div id="process-section" style="display: none;">
-            
-            <table class="process-table">
-                <thead>
-                    <tr>
-                        <th>Process ID</th>
-                        <th>Burst Time (ms)</th>
-                        <th>Arrival Time (ms) <span class="tooltip">?<span class="tooltiptext">Leave blank for 0 (all processes arrive at time 0)</span></span></th>
-                        <th class="priority-column">Priority</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody id="process-table-body">
-                    <!-- Processes will be added here -->
-                </tbody>
-            </table>
+            <div class="process-details-result">
+                <table class="process-table">
+                    <thead>
+                        <tr>
+                            <th>Process ID</th>
+                            <th>Burst Time (ms)</th>
+                            <th>Arrival Time (ms) <span class="tooltip">?<span class="tooltiptext">Leave blank for 0 (all processes arrive at time 0)</span></span></th>
+                            <th class="priority-column">Priority</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="process-table-body">
+                        <!-- Processes will be added here -->
+                    </tbody>
+                </table>    
+            </div>
             <button id="add-process-btn" class="btn add-process-btn">+ Add Process</button>
             <button id="calculate-btn" class="btn btn-success">Calculate Scheduling</button>
         </div>
